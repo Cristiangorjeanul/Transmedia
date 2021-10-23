@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Transmedia</title>
+  <meta name="Landing page" content="portfolio, apps, Html, Css, JavaScript, jQuery, React" />
+  <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/history.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/games.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/portfolio.css">
+  <link rel="stylesheet" href="css/section.css">
+  <link rel="stylesheet" href="css/skills.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Arial Narrow" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <script src="js/app1.js"></script>
+  <script src="js/app2.js"></script>
+</head>
+
+
+<body>
+
+  <!-- My website -->
+
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar-header">
+        <!-- Menu burger button -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span><i id="burger-menu" class="fa fa-bars"
+              style="font-size: 17px; color: white; text-shadow: 1px 1px 3px blue;"></i></span>
+        </button>
+        <!-- Website title -->
+        <a class="navbar-brand" href="#myPage">
+
+          <strong>MEDIA &#128142; AGENCY</strong>
+        </a>
+      </div>
+      <!-- Links list -->
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right text-center">
+          <li><a href="https://github.com/Cristiangorjeanul" target="_blank">Portfolio</a></li>
+          <li><a href="https://cristiangorjeanul.github.io/Photo-Blog/" target="_blank">Blog</a></li>
+          <li><a href="https://cristiangorjeanul.github.io/Learning-System/" target="_blank">Learning</a></li>
+          <li><a href="https://cristiangorjeanul.github.io/Flower-Shop/" target="_blank">Shop</a></li>
+          <li><a href="https://cristiangorjeanul.github.io/My-Country/" target="_blank">Agency</a></li>
+          <li><a href="https://cristiangorjeanul.github.io/HTML-email/" target="_blank">Mail</a></li>
+          <li><a href="https://cristiangorjeanul.github.io/Astronomical-quiz/" target="_blank">Quiz</a></li>
+          <li><a href="https://cristiangorjeanul.github.io/ai-Cars/" target="_blank">Cars</a></li>
+          <li><a href="https://cristiangorjeanul.github.io/Edu-games/" target="_blank">Games</a></li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+    <!-- Header -->
+    <header>
+      <div class="jumbotron text-center">
+        <div class="container-fluid text-center">
+          <div class="col-sm-12 col-xs-12">
+            <div class="panel-heading">
+
+              <!-- My SVG CT logo -->
+              <div id="ct-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="171px" height="84px">
+                  <defs>
+                    <filter id="f1" width="170%" height="170%">
+                      <feOffset result="offOut" in="SourceGraphic" dx="1" dy="1" />
+                      <feGaussianBlur result="blurOut" in="offOut" stdDeviation=".5" />
+                      <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+                    </filter>
+                  </defs>
+                  <!-- T -->
+                  <path class="ct-logo" fill="none" stroke-width="1" stroke-dasharray="750" stroke-dashoffset="750"
+                    filter="url(#f1)"
+                    d="M 125 35 L 125 80 L 45 80 L 45 35  L 1 35  L 10 1  L 161 1 L 170 35  L 125 35 Z" />
+
+                </svg>
+              </div>
+
+              <h1>TRANSMEDIA</h1>
+              <!-- Slider with screen shoots of my websites -->
+              <div class="my-websites-screen-shots">
+                <img class="my-website-screen-shoot" src="assets/blog.png" alt="Photo blog">
+                <img class="my-website-screen-shoot" src="assets/store.png" alt="Juice store">
+                <img class="my-website-screen-shoot" src="assets/shop.png" alt="Flower shop">
+                <img class="my-website-screen-shoot" src="assets/dashboard.png" alt="Dashboard">
+                <img class="my-website-screen-shoot" src="assets/travel-agency.png" alt="Travel agency">
+                <div class="activity-fields"></div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About me section -->
+    <main>
+      <div id="about" class="container-fluid text-center">
+        <div class="col-sm-12 col-xs-12">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading">
+              <h3>ABOUT US</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- Welcome message -->
+        <div class="container-fluid text-center">
+          <div class="col-sm-12">
+            <h3 id="initial-greeting"></h3>
+            <h3 id="welcome">Welcome!</h3><br>
+          </div>
+        </div>
+
+
+        <div class="row container-fluid text-center">
+          <div class="col-sm-12 col-xs-12">
+            <br><br>
+            <div class="col-sm-4 col-xs-12">
+              <div class="panel panel-default text-center">
+                <img src="./assets/Cristian.jpg" class="portrait-picture"><br>
+                <h3 style="text-shadow: 1.2px 1.2px 1.2px blue;">
+                  <strong style='text-shadow: .5px .5px .5px black;'>
+                    Cristian<br>FOUNDER</strong><br><br>
+              </div>
+            </div>
+            <!-- Learning skills -->
+            <div class="col-sm-4 col-xs-12">
+              <div class="panel panel-default text-center">
+                <img src="./assets/Cristian.jpg" class="portrait-picture"><br>
+                <h3 style="text-shadow: 1.2px 1.2px 1.2px blue;">
+                  <strong style='text-shadow: .5px .5px .5px black;'>
+                    Cristian<br>DEVELOPER</strong><br><br>
+              </div>
+            </div>
+            <!-- Transferable skills -->
+            <div class="col-sm-4 col-xs-12">
+              <div class="panel panel-default text-center">
+                <img src="./assets/Cristian.jpg" class="portrait-picture"><br>
+                <strong style='text-shadow: .5px .5px .5px black;'>
+                  Cristian<br>TEACHER</strong><br><br><br>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- My jobs text animation -->
+        <b class="my-jobs"></b>
+
+        <!-- Texts on the cylinder -->
+        <div class="cylinder-animation">
+          <div class="cylinder">
+            <div class="texts">
+              <span style="--i: 1"><i>WE</i> <i>LIKE</i> <i>CODING</i></span>
+              <span style="--i: 2"><i>WE</i> <i>LIKE</i> <i>CODING</i></span>
+              <span style="--i: 3"><i>WE</i> <i>LIKE</i> <i>CODING</i></span>
+              <span style="--i: 4"><i>WE</i> <i>LIKE</i> <i>CODING</i></span>
+              <span style="--i: 5"><i>WE</i> <i>LIKE</i> <i>CODING</i></span>
+              <span style="--i: 6"><i>WE</i> <i>LIKE</i> <i>CODING</i></span>
+              <span style="--i: 7"><i>WE</i> <i>LIKE</i> <i>CODING</i></span>
+              <span style="--i: 8"><i>WE</i> <i>LIKE</i> <i>CODING</i></span>
+              <span style="--i: 9"><i>WE</i> <i>LIKE</i> <i>CODING</i></span>
+              <span style="--i: 10"><i>WE</i> <i>LIKE</i> <i>CODING</i></span>
+              <span style="--i: 11"><i>WE</i> <i>LIKE</i> <i>CODING</i></span>
+              <span style="--i: 12"><i>WE</i> <i>LIKE</i> <i>CODING</i></span>
+              <span style="--i: 13"><i>WE</i> <i>LIKE</i> <i>CODING</i></span>
+              <span style="--i: 14"><i>WE</i> <i>LIKE</i> <i>CODING</i></span>
+              <span style="--i: 15"><i>WE</i> <i>LIKE</i> <i>CODING</i></span>
+              <span style="--i: 16"><i>WE</i> <i>LIKE</i> <i>CODING</i></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bootstrap carousel -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="./assets/photo-1.jpg" alt="Frontend course" width="1200" height="700">
+              <div class="carousel-caption">
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="./assets/photo-2.jpg" alt="Frontend course" width="1200" height="700">
+              <div class="carousel-caption">
+              </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <!-- Portfolio section -->
+      <div id="portfolio" class="container-fluid text-center">
+        <div class="text-center">
+          <div class="col-sm-12 col-xs-12">
+            <div class="panel panel-default text-center">
+              <div class="panel-heading">
+                <h3>PORTFOLIO</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Number of apps message and logo technologies used for this website-->
+        <div class="row container-fluid text-center">
+          <div class="col-sm-12 col-xs-12">
+            <br><br>
+            <div class="row text-center">
+              <div class="col-sm-12">
+                <div class="col-sm-4 col-xs-12">
+                  <div class="panel panel-default text-center">
+                    <div class="panel-heading1">
+                      <br><i style='font-size:27px; color: yellow; text-shadow: .5px .5px .5px black;'
+                        class='fas fa-code'></i><br>
+                      <h3 style='color: yellow; text-shadow: .5px .5px .5px black;'>
+                        WEB<br>DESIGN</h3>
+                    </div>
+                    <div class="panel-body1">
+                      <div class="progress-number">
+                        <div id="apps-number" style="--p: 1; --f: 0"></div>
+                      </div>
+                      <strong style='color: #9999ff;; text-shadow: .5px .5px .5px black;'>
+                        websites</strong><br><br><br>
+                    </div>
+                  </div>
+                </div>
+                <!-- Learning skills -->
+                <div class="col-sm-4 col-xs-12">
+                  <div class="panel panel-default text-center">
+                    <div class="panel-heading2">
+                      <br><i style='font-size:27px; color:blue; text-shadow: .5px .5px .5px black;'
+                        class='fas fa-chalkboard-teacher'></i><br>
+                      <h3 style='color: blue; text-shadow: .5px .5px .5px black;'>
+                        MEDIA<br>AUDIT</h3>
+                    </div>
+                    <div class="panel-body2">
+                      <div class="progress-number">
+                        <div id="apps-number" style="--p: 1; --f: 0;"></div>
+                      </div>
+                      <strong style='color: #9999ff;; text-shadow: .5px .5px .5px black;'>
+                        sessions</strong><br><br><br>
+                    </div>
+                  </div>
+                </div>
+                <!-- Transferable skills -->
+                <div class="col-sm-4 col-xs-12">
+                  <div class="panel panel-default text-center">
+                    <div class="panel-heading3">
+                      <br><i style='font-size:27px; color:green; text-shadow: .5px .5px .5px black;'
+                        class='fas fa-desktop'></i><br>
+                      <h3 style='color: green; text-shadow: .5px .5px .5px black;'>
+                        EMAIL<br>MARKETING</h3>
+                    </div>
+                    <div class="panel-body3">
+                      <div class="progress-number">
+                        <div id="apps-number" style="--p: 1; --f: 0;"></div>
+                      </div>
+                      <strong style='color: #9999FF;; text-shadow: .5px .5px .5px black;'>
+                        campaigns</strong><br><br><br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <br><strong style="color: #9999FF; text-shadow: 1px 1px 1px blue;">
+          We use the latest technologies!</strong>
+
+        <div class="logo-technologies">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Javascript_badge.svg">
+          <img src="https://upload.wikimedia.org/wikipedia/en/9/9e/JQuery_logo.svg">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/SVG_logo.svg">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg">
+        </div><br>
+
+      </div>
+      </div>
+
+      <!-- Photo Blog website link -->
+      <div class="container-fluid" class="text-center">
+        <div class="row text-center">
+          <div class="col-sm-12">
+            <div class="col-sm-2 col-xs-12">
+              <div class="thumbnail"><br>
+                <h3 style='color: springgreen; text-shadow: 1px 1px 1px blue; font-family: "Arial Narrow"'>
+                  PHOTO<br>BLOG</h3>
+                <video autoplay muted loop preload="auto">
+                  <source src="./assets/photo.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <h5 style="padding-top: 3px; color: springgreen;">
+                  Click to follow a blog!
+                  <a href="https://cristiangorjeanul.github.io/Photo-Blog/" target="_blank"><span
+                      class="span-link"></span></a>
+                </h5><br>
+              </div>
+            </div>
+            <!-- Juice Store website link -->
+            <div class="col-sm-2 col-xs-12">
+              <div class="thumbnail"><br>
+                <h3 style='color: yellow; text-shadow: 1px 1px 1px blue; font-family: "Arial Narrow"'>
+                  TRAVEL<br>AGENCY</h3>
+                <video autoplay muted loop preload="auto">
+                  <source src="./assets/travel.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <h5 style="padding-top: 3px; color: yellow; text-shadow: .7px .7px .7px blue">
+                  Click to the travel agency!
+                  <a href="https://cristiangorjeanul.github.io/My-Country/" target="_blank"><span
+                      class="span-link"></span></a>
+                </h5><br>
+              </div>
+            </div>
+            <!-- Learning System website link -->
+            <div class="col-sm-2 col-xs-12">
+              <div class="thumbnail"><br>
+                <h3 style='color: cyan; text-shadow: 1px 1px 1px blue; font-family: "Arial Narrow"'>
+                  LEARNING<br>SYSTEM</h3>
+                <video autoplay muted loop preload="auto">
+                  <source src="./assets/system.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <h5 style="padding-top: 3px; color: cyan;">
+                  Click to read e-books!
+                  <a href="https://cristiangorjeanul.github.io/Learning-System/" target="_blank"><span
+                      class="span-link"></span></a>
+                </h5><br>
+              </div>
+            </div>
+            <!-- Flower Shop website link -->
+            <div class="col-sm-2 col-xs-12">
+              <div class="thumbnail"><br>
+                <h3 style='color: magenta; text-shadow: 1px 1px 1px blue; font-family: "Arial Narrow"'>
+                  FLOWER<br>SHOP</h3>
+                <video autoplay muted loop preload="auto">
+                  <source src="./assets/flowers.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <h5 style="padding-top: 3px; color: magenta;">
+                  Click to see an e-Shop!
+                  <a href="https://cristiangorjeanul.github.io/Flower-Shop/" target="_blank"><span
+                      class="span-link"></span></a>
+                </h5><br>
+              </div>
+            </div>
+            <!-- Green Tech website link -->
+            <div class="col-sm-2 col-xs-12">
+              <div class="thumbnail"><br>
+                <h3 style='color: black; text-shadow: 1px 1px 1px blue; font-family: "Arial Narrow"'>
+                  AI<br>CARS</h3>
+                <video autoplay muted loop preload="auto">
+                  <source src="./assets/ai-cars.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <h5 style="padding-top: 3px; color: black;">
+                  Click to driverless cars!
+                  <a href="https://cristiangorjeanul.github.io/ai-Cars/" target="_blank"><span
+                      class="span-link"></span></a>
+                </h5><br>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <!-- Skills section -->
+      <div id="skills" class="container-fluid">
+        <div class="text-center">
+          <div class="col-sm-12 col-xs-12">
+            <div class="panel panel-default text-center">
+              <div class="panel-heading">
+                <h3>OFFER</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><br><br>
+      <!-- Frontend programming skills -->
+      <div class="skills-panels" class="container-fluid">
+        <div class="row text-center">
+          <div class="col-sm-12">
+            <div class="col-sm-3 col-xs-12">
+              <div class="panel panel-default text-center">
+                <div class="panel-heading1">
+                  <br><i style='font-size:27px; color: yellow; text-shadow: .5px .5px .5px black;'
+                    class='fas fa-swimmer'></i><br>
+                  <h3 style='color: yellow; text-shadow: .5px .5px .5px black;'>
+                    SWIMMER</h3>
+                </div>
+                <div class="panel-body1">
+                  <strong style='color: yellow; text-shadow: .8px .8px .8px black;'>
+                    1 website</strong><br>
+                  <strong style='color: yellow; text-shadow: .8px .8px .8px black;'>
+                    1 media audit</strong><br>
+                  <strong style='color: yellow; text-shadow: .8px .8px .8px black;'>
+                    1 email campaign</strong><br>
+                </div>
+                <div class="panel-heading1">
+                  <h3 style='color: yellow; text-shadow: .5px .5px .5px black; padding-top: 17px;'>
+                    1€/ year</h3>
+                </div>
+              </div>
+            </div>
+            <!-- Learning skills -->
+            <div class="col-sm-3 col-xs-12">
+              <div class="panel panel-default text-center">
+                <div class="panel-heading2">
+                  <br><i style='font-size:27px; color:blue; text-shadow: .5px .5px .5px black;'
+                    class='fas fa-biking'></i><br>
+                  <h3 style='color: blue; text-shadow: .5px .5px .5px black;'>
+                    BIKER</h3>
+                </div>
+                <div class="panel-body2">
+                  <strong style='color: blue; text-shadow: .8px .8px .8px black;'>
+                    2 websites</strong><br>
+                  <strong style='color: blue; text-shadow: .8px .8px .8px black;'>
+                    2 media audits</strong><br>
+                  <strong style='color: blue; text-shadow: .8px .8px .8px black;'>
+                    2 email campaigns</strong><br>
+                </div>
+                <div class="panel-heading2">
+                  <h3 style='color: blue; text-shadow: .5px .5px .5px black; padding-top: 17px;'>
+                    2€/ year</h3>
+                </div>
+              </div>
+            </div>
+            <!-- Transferable skills -->
+            <div class="col-sm-3 col-xs-12">
+              <div class="panel panel-default text-center">
+                <div class="panel-heading3">
+                  <br><i style='font-size:27px; color:green; text-shadow: .5px .5px .5px black;'
+                    class='fas fa-skiing'></i><br>
+                  <h3 style='color: green; text-shadow: .5px .5px .5px black;'>
+                    SKIER</h3>
+                </div>
+                <div class="panel-body3">
+                  <strong style='color: green; text-shadow: .8px .8px .8px black;'>
+                    3 websites</strong><br>
+                  <strong style='color: green; text-shadow: .8px .8px .8px black;'>
+                    3 media audits</strong><br>
+                  <strong style='color: green; text-shadow: .8px .8px .8px black;'>
+                    3 email campaigns</strong><br>
+                </div>
+                <div class="panel-heading3">
+                  <h3 style='color: green; text-shadow: .5px .5px .5px black; padding-top: 17px;'>
+                    3€/ year</h3>
+                </div>
+              </div>
+            </div>
+            <!-- Design skills -->
+            <div class="col-sm-3 col-xs-12">
+              <div class="panel panel-default text-center">
+                <div class="panel-heading4">
+                  <br><i style='font-size:27px; color:red; text-shadow: .5px .5px .5px black;'
+                    class='fas fa-hiking'></i><br>
+                  <h3 style='color: red; text-shadow: .5px .5px .5px black;'>
+                    TRAVELER</h3>
+                </div>
+                <div class="panel-body4">
+                  <strong style='color: red; text-shadow: .8px .8px .8px black;'>
+                    4 websites</strong><br>
+                  <strong style='color: red; text-shadow: .8px .8px .8px black;'>
+                    4 media audits</strong><br>
+                  <strong style='color: red; text-shadow: .8px .8px .8px black;'>
+                    4 email campaigns</strong><br>
+                </div>
+                <div class="panel-heading4">
+                  <h3 style='color: red; text-shadow: .5px .5px .5px black; padding-top: 17px;'>
+                    4€/ year</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience section -->
+      <div id="experience" class="container-fluid" class="text-center">
+        <div class="col-sm-12 col-xs-12">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading">
+              <h3>HISTORY</h3>
+            </div>
+          </div>
+        </div><br><br>
+
+        <!-- Hourglass -->
+        <div class="row text-center">
+          <div class="hourglass">
+            <div class="glass top">
+              <div class="sand"></div>
+            </div>
+            <div class="glass">
+              <div class="sand delayed"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- My experience timeline -->
+        <div id="timeline">
+          <ul>
+            <li>
+              <div>
+                <h5 style="color: yellow;">
+                  <br>2020<br>Web<br>Design
+                </h5>
+              </div>
+            </li>
+
+            <li>
+              <div>
+                <h5 style="color: blue;">
+                  <i style='font-size:23px; color: blue;' class='fas fa-chalkboard-teacher'></i><br>
+                  <br>2019<br>Email<br>Marketing
+                </h5>
+              </div>
+            </li>
+
+            <li>
+              <div>
+                <h5 style="color: green;">
+                  <i style='font-size:23px; color: green;' class='fas fa-percent'></i><br>
+                  <br>2018<br>Media<br>Audit
+                </h5>
+              </div>
+            </li>
+
+            <li>
+              <div>
+                <h5 style="color: red;">
+                  <i style='font-size:23px; color: red;' class='fas fa-wrench'></i><br>
+                  <br>2017<br>Press<br>Audit
+                </h5>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+    </main>
+    <!-- Parallax section with a digital rain gif in background -->
+    <section class="image-background" id="gif-background">
+      <!-- Oval shape with clock and messages -->
+      <div class="message-container">
+        <div id="clock"></div><br>
+        <div id="final-greeting"></div><br>
+        <div class="smiley-face">
+          <p class="eyes left"></p>
+          <p class="eyes right"></p>
+          <div class="smiley-mouth"></div>
+        </div>
+      </div>
+      </div>
+      </div><br>
+      <!-- Like button -->
+      <div class="button-container">
+        <div class="button-frame">
+          <button id="buttonLike" data-toggle="modal" data-target="#myModal">
+            <i class="glyphicon glyphicon-thumbs-up"></i>&nbsp;&nbsp;&nbsp;
+            Like!&nbsp;&nbsp;&nbsp;
+            <span id="counter"></span>
+          </button>
+        </div>
+      </div>
+      <!-- Wikipedia gif link -->
+      <h5 style="color:blue; font-size: 3.5px; margin: 1px;">Gif from
+        <a href="https://upload.wikimedia.org/wikipedia/commons/c/cc/Digital_rain_animation_medium_letters_shine.gif"
+          target="_blank">
+          en.wikipedia.org</a>
+      </h5>
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header text-center">
+              <!-- Modal close button -->
+              <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+                <span class="glyphicon glyphicon-remove"></span>
+              </button>
+              <!-- Modal header -->
+              <br><b style="color:#9999ff; font-size: 17px;">
+                <span class="glyphicon glyphicon-heart"
+                  style="color:red; font-size: 15px; text-shadow: .5px .5px .5px black;"></span>
+                Thank you very much
+                <span class="glyphicon glyphicon-heart" style="color:red; font-size: 15px;"></span><br>
+                for your consideration!</b>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-body text-center">
+              <b style="color:white; font-size: 17px; text-shadow: 0.5px 0.5px 0.5px blue;">
+                I hope I will become<br>
+                <span class="glyphicon glyphicon-heart" style="color:red; font-size: 15px;"></span>
+                your favorite
+                <span class="glyphicon glyphicon-heart" style="color:red; font-size: 15px;"></span><br>
+                Software Developer!</b>
+            </div>
+          </div>
+        </div>
+    </section><br><br><br>
+
+    <!-- Contacts section -->
+    <footer div id="contact" class="container-fluid text-center">
+      <div class="col-sm-12 col-xs-12">
+        <div class="panel panel-default text-center">
+          <div class="panel-heading">
+            <h3>CONTACTS</h3>
+          </div>
+        </div>
+      </div>
+      <!-- My picture that rotates at click -->
+      <div class="rotating-picture">
+        <div id="picture">
+          <!-- The front of the picture -->
+          <div class="front">
+            <img src="./assets/photo-3.jpg" alt="Desktop" />
+          </div>
+          <!-- The back of the picture with my GitHub, YouTube and Discord links -->
+          <div class="back"><br>
+            <h5>My contacts:</h5>
+            <br>
+            <h5>GitHub account:<br>
+              <a href="https://github.com/Cristiangorjeanul" target="_blank">
+                <span style="color:blue; font-weight: 500; font-size: 14px;">
+                  https://github.com/Cristiangorjeanul</span>
+              </a>
+            </h5>
+            <h5>Discord user name:<br>
+              <a href="#" target="_blank">
+                <span style="color:blue; font-weight: 500; font-size: 14px;">
+                  Cristian gorjeanul#0638</span>
+              </a>
+            </h5>
+            <h5>YouTube channel:<br>
+              <a href="https://www.youtube.com/channel/UCqwi0UlCeL81iGrJCJ33-Jw" target="_blank">
+                <span style="color:blue; font-weight: 500; font-size: 14px;">
+                  https://www.youtube.com/channel/</span>
+              </a>
+            </h5>
+            <h5><span class="glyphicon glyphicon-map-marker" style="color:red;"></span><span style="color:black;">
+                Tg-Jiu & Bucharest, Romania</span>
+            </h5>
+          </div>
+        </div>
+        <h5 style="margin-bottom: 5px;">
+          <span class="glyphicon glyphicon-hand-up"></span>
+          Click on my photo for contacts!
+          <span class="glyphicon glyphicon-hand-up"></span>
+        </h5>
+      </div>
+      <!-- Social media buttons -->
+      <div class="social-media">
+        <div class="share">Share!</div>
+        <div class="social discord">
+          <i class="fab fa-discord" alt="Discord account"></i>
+        </div>
+        <div class="social youtube">
+          <a href="https://www.youtube.com/channel/UCqwi0UlCeL81iGrJCJ33-Jw" target="_blank">
+            <i class="fab fa-youtube" alt="YouTube channel" style="color: white;"></i></a>
+        </div>
+        <div class="social github">
+          <a href="https://github.com/Cristiangorjeanul" target="_blank">
+            <i class="fab fa-github" style="color: black;"></i></a>
+        </div>
+        <div class="social cycling">
+          <i class="fas fa-bicycle" style="color: blue;"></i>
+        </div>
+        <div class="social swimming">
+          <i class="fas fa-swimmer" style="color: peachpuff;"></i>
+        </div>
+        <div class="social tennis">
+          <i class="fas fa-table-tennis" style="color: blue;"></i>
+        </div>
+      </div>
+      <!-- My YouTube video on my YouTube Channel -->
+      <div class="col-sm-12 col-xs-12">
+        <div class="panel-body">
+          <div class="row text-center">
+            <div class="content"><br>
+              <div class="thumbnail">
+                <iframe src="https://www.youtube.com/embed/-Iw72460EwM" frameborder="0" allow="accelerometer; autoplay; 
+                clipboard-write; encrypted-media; gyroscope; 
+                picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <h5 style="margin-bottom: 5px;">
+                <span class="glyphicon glyphicon-hand-up"></span>
+                Click to see my YouTube video!
+                <span class="glyphicon glyphicon-hand-up"></span>
+              </h5><br>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- My address on the Google map -->
+      <iframe id="iframe" style="width: 100%; margin: 10px auto;"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6420701.660770204!2d24.97964010764297!3d47.14706412280103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1f93abf3cad4f%3A0xac0632e37c9ca628!2sBucure%C8%99ti!5e0!3m2!1sro!2sro!4v1599735037524!5m2!1sro!2sro"></iframe>
+      <!-- Date clock -->
+      <h5><span id="time"></span></h5>
+      <!-- Go to top button -->
+      <button-top class="to-header" class="text-center">
+        <a href="#myPage" title="To Top">
+          <span class="glyphicon glyphicon-chevron-up" style="color:blue; font-size: 35px;"></span>
+        </a><br>
+      </button-top>
+      </div>
+
+    </footer>
+
+    <!-- Relaxation area -->
+    <article div id="game" class="container-fluid text-center">
+      <div class="col-sm-12 col-xs-12">
+        <div class="panel panel-default text-center">
+          <div class="panel-heading">
+            <h3>RELAXATION AREA</h3>
+          </div>
+        </div>
+      </div>
+      <!-- Click on all the numbers game -->
+      <h3 style="color:blue; margin-top: 158px;">Twisted numbers!</h3>
+      <h5 style="color:blue;">Train your attention and memory!<br>
+        Click on 50 numbers in ascending order!</h5>
+      <h5 style="text-align: center; margin: 3px;">
+        <span>Click the number: </span>
+        <span id="next" style="color: red; font-size: 23px; text-shadow: 1px 1px 1px blue;"></span>
+        &nbsp;&nbsp;&nbsp;
+        <span>Time: </span><span id="timer" style="color: blue; font-size: 17px;"></span>
+      </h5>
+
+      <!-- Board image settings -->
+      <img src="./assets/numbers.png" usemap="#nums" style="margin: auto;">
+      <map id="nums" name="nums">
+        <area shape="rect" alt="" title="" coords="1,1,57,52" id="15" target="" />
+        <area shape="circle" alt="" title="" coords="84,25,20" id="24" target="" />
+        <area shape="rect" alt="" title="" coords="113,0,143,49" id="21" target="" />
+        <area shape="circle" alt="" title="" coords="170,26,22" id="3" target="" />
+        <area shape="rect" alt="" title="" coords="198,0,269,29" id="34" target="" />
+        <area shape="rect" alt="" title="" coords="275,0,315,45" id="2" target="" />
+        <area shape="rect" alt="" title="" coords="198,35,270,53" id="37" target="" />
+        <area shape="rect" alt="" title="" coords="1,56,58,82" id="18" target="" />
+        <area shape="rect" alt="" title="" coords="64,54,91,174" id="16" target="" />
+        <area shape="rect" alt="" title="" coords="98,58,219,109" id="8" target="" />
+        <area shape="circle" alt="" title="" coords="251,82,25" id="19" target="" />
+        <area shape="rect" alt="" title="" coords="284,48,314,110" id="28" target="" />
+        <area shape="circle" alt="" title="" coords="30,114,25" id="12" target="" />
+        <area shape="rect" alt="" title="" coords="99,113,139,139" id="41" target="" />
+        <area shape="circle" alt="" title="" coords="160,126,12" id="1" target="" />
+        <area shape="circle" alt="" title="" coords="209,143,30" id="44" target="" />
+        <area shape="rect" alt="" title="" coords="246,115,265,212" id="9" target="" />
+        <area shape="rect" alt="" title="" coords="273,116,315,145" id="25" target="" />
+        <area shape="rect" alt="" title="" coords="1,146,57,170" id="27" target="" />
+        <area shape="rect" alt="" title="" coords="98,147,172,172" id="31" target="" />
+        <area shape="rect" alt="" title="" coords="275,152,311,185" id="32" target="" />
+        <area shape="rect" alt="" title="" coords="1,179,159,201" id="14" target="" />
+        <area shape="rect" alt="" title="" coords="169,180,237,202" id="36" target="" />
+        <area shape="rect" alt="" title="" coords="273,193,312,212" id="29" target="" />
+        <area shape="rect" alt="" title="" coords="1,209,35,287" id="23" target="" />
+        <area shape="rect" alt="" title="" coords="43,210,74,288" id="5" target="" />
+        <area shape="circle" alt="" title="" coords="109,235,27" id="13" target="" />
+        <area shape="rect" alt="" title="" coords="80,267,149,286" id="38" target="" />
+        <area shape="rect" alt="" title="" coords="143,208,229,228" id="39" target="" />
+        <area shape="rect" alt="" title="" coords="143,236,211,259" id="43" target="" />
+        <area shape="rect" alt="" title="" coords="157,267,212,286" id="50" target="" />
+        <area shape="circle" alt="" title="" coords="265,260,45" id="10" target="" />
+        <area shape="rect" alt="" title="" coords="1,295,56,337" id="47" target="" />
+        <area shape="circle" alt="" title="" coords="90,314,23" id="30" target="" />
+        <area shape="rect" alt="" title="" coords="123,293,168,337" id="40" target="" />
+        <area shape="rect" alt="" title="" coords="175,291,220,315" id="45" target="" />
+        <area shape="rect" alt="" title="" coords="1,343,88,371" id="4" target="" />
+        <area shape="rect" alt="" title="" coords="98,346,168,396" id="33" target="" />
+        <area shape="rect" alt="" title="" coords="175,322,203,395" id="35" target="" />
+        <area shape="rect" alt="" title="" coords="208,321,250,396" id="17" target="" />
+        <area shape="rect" alt="" title="" coords="258,314,313,337" id="11" target="" />
+        <area shape="rect" alt="" title="" coords="259,343,313,369" id="20" target="" />
+        <area shape="circle" alt="" title="" coords="30,403,24" id="6" target="" />
+        <area shape="rect" alt="" title="" coords="67,380,88,430" id="22" target="" />
+        <area shape="rect" alt="" title="" coords="95,402,251,430" id="48" target="" />
+        <area shape="circle" alt="" title="" coords="285,402,26" id="7" target="" />
+        <area shape="rect" alt="" title="" coords="1,437,50,463" id="49" target="" />
+        <area shape="rect" alt="" title="" coords="57,437,152,461" id="46" target="" />
+        <area shape="rect" alt="" title="" coords="160,437,201,460" id="26" target="" />
+        <area shape="rect" alt="" title="" coords="208,437,315,463" id="42" target="" />
+      </map>
+
+      <h5 style="color:blue; font-size: 12px;">Result analysis:<br>
+        3-5 min: Excellent; &nbsp; 5-7 min: Good<br>
+        7-10 min: Normal; &nbsp; 10-15 min: Poor<br>
+      </h5>
+      <!-- Reset button -->
+      <div class="numbersButton">
+        <button id="resetGame" onClick="resetGame()">Reset</button>
+      </div><br><br><br>
+      <!-- Click on the black balloons game -->
+      <!-- Title, start button and score board -->
+      <h3 style="color:blue;">Bouncing balloons!</h3><br>
+      <h5 style="color:blue;">Train your dexterity and attention!<br>
+        Click on the black balloons!</h5>
+      <div class="gameButton">
+        <button id="newGame" onClick="startGame()">New game</button>
+      </div><br>
+      <h5 class="score" style="font-size: 27px;">0</h5>
+      <!-- Balloons game -->
+      <div class="balloonsGame">
+        <div class="balloon balloon1">
+          <div class="blackBalloon"></div>
+        </div>
+        <div class="balloon balloon2">
+          <div class="blackBalloon"></div>
+        </div>
+        <div class="balloon balloon3">
+          <div class="blackBalloon"></div>
+        </div>
+        <div class="balloon balloon4">
+          <div class="blackBalloon"></div>
+        </div>
+        <div class="balloon balloon5">
+          <div class="blackBalloon"></div>
+        </div>
+        <div class="balloon balloon6">
+          <div class="blackBalloon"></div>
+        </div>
+        <div class="balloon balloon7">
+          <div class="blackBalloon"></div>
+        </div>
+        <div class="balloon balloon8">
+          <div class="blackBalloon"></div>
+        </div>
+        <div class="balloon balloon9">
+          <!-- Flying black balloon -->
+          <div class="blackBalloon"></div>
+        </div>
+      </div><br>
+      <h5 style="color:blue; font-size: 12px;">Result analysis:<br>
+        &nbsp; >20 ballons: Excellent;&nbsp;15-20 ballons: Good<br>
+        &nbsp; 10-15 ballons: Normal;&nbsp;1-10 ballons: Poor<br>
+      </h5>
+
+    </article><br>
+
+    <h5>This is a demo website!<br>
+      This is fictitious company!<br>
+      Cristian T.<br>
+      Oct 2021<br>
+      Please visit:<br>
+      <a href="https://cristiangorjeanul.github.io/Landing-page/">
+        My Landing Page</a><br>
+
+  </body>
+
+</html>

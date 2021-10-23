@@ -1,0 +1,515 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  line-height: 1.8;
+  transition: 0.8s ease;
+}
+/* My logo */
+.my-logo {
+  position: absolute;
+  left: 1px;
+  top: 20.5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+/*My SVG CT animation logo*/
+#ct-logo {
+  width: 171px;
+  height: 84px;
+  padding: 1px;
+  margin: auto;
+}
+
+.ct-logo {
+  animation-fill-mode: forwards;
+  animation-iteration-count: 3;
+}
+
+@keyframes draw1 {
+  0% {
+    stroke: cyan;
+    stroke-width: 1.8px;
+  }
+  100% {
+    stroke: cyan;
+    stroke-width: 1.8px;
+    fill: none;
+    stroke-dashoffset: 100;
+  }
+}
+
+@keyframes draw2 {
+  0% {
+    stroke: springgreen;
+    stroke-width: 1.8px;
+  }
+  100% {
+    stroke: springgreen;
+    stroke-width: 1.8px;
+    fill: none;
+    stroke-dashoffset: 100;
+  }
+}
+
+@keyframes draw3 {
+  0% {
+    stroke: magenta;
+    stroke-width: 1.8px;
+  }
+  100% {
+    stroke: magenta;
+    stroke-width: 1.8px;
+    fill: none;
+    stroke-dashoffset: 100;
+  }
+}
+/* My name */
+h1 {
+  text-align: center;
+  margin-top: 1px;
+  font-size: 39px;
+  font-weight: 900;
+  font-family: "Lato", "Montserrat", "Times New Roman";
+  color: white;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 255, 0.1), 0 0 5px rgba(0, 0, 255, 0.1),
+    0 1px 3px rgba(0, 0, 255, 0.3), 0 3px 5px rgba(0, 0, 255, 0.2),
+    0 5px 10px rgba(0, 0, 255, 0.25), 0 10px 10px rgba(0, 0, 255, 0.2);
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 71px;
+  }
+}
+
+h2 {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 32px;
+  font-weight: 900;
+  font-family: "Lato", "Montserrat", "Times New Roman";
+  color: white;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 255, 0.1), 0 0 5px rgba(0, 0, 255, 0.1),
+    0 1px 3px rgba(0, 0, 255, 0.3), 0 3px 5px rgba(0, 0, 255, 0.2),
+    0 5px 10px rgba(0, 0, 255, 0.25), 0 10px 10px rgba(0, 0, 255, 0.2);
+}
+
+@media (min-width: 768px) {
+  h2 {
+    font-size: 45px;
+  }
+}
+
+/* My repositories screen shoots */
+.my-website-screen-shoot {
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: all 1.5s ease;
+  filter: drop-shadow(1px 1px 3px blue);
+  top: 237px;
+  width: 305px;
+  height: 150px;
+}
+
+@media (min-width: 768px) {
+  .my-website-screen-shoot {
+    left: 50%;
+    top: 275px;
+    width: 500px;
+    height: 197px;
+  }
+}
+
+/* My activity fields text animation */
+.activity-fields {
+  width: 100%;
+  height: 75px;
+  font-size: 20.1px;
+  font-weight: 900;
+  padding-top: 153px;
+  margin: auto;
+  color: white;
+  font-family: "Lato", "Montserrat", "Times New Roman";
+  text-align: center;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 255, 0.1), 0 0 5px rgba(0, 0, 255, 0.1),
+    0 1px 3px rgba(0, 0, 255, 0.3), 0 3px 5px rgba(0, 0, 255, 0.2),
+    0 5px 10px rgba(0, 0, 255, 0.25), 0 10px 10px rgba(0, 0, 255, 0.2);
+}
+
+@media (min-width: 768px) {
+  .activity-fields {
+    padding-top: 167px;
+    margin: 1px auto;
+    font-size: 39px;
+    font-family: "Lato", "Montserrat", "Times New Roman";
+  }
+}
+
+header .panel-heading {
+  height: 395px;
+}
+
+@media (min-width: 768px) {
+  header .panel-heading {
+    height: 450px;
+  }
+}
+
+h3 {
+  font-size: 27px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 255, 0.1), 0 0 5px rgba(0, 0, 255, 0.1),
+    0 1px 3px rgba(0, 0, 255, 0.3), 0 3px 5px rgba(0, 0, 255, 0.2),
+    0 5px 10px rgba(0, 0, 255, 0.25), 0 10px 10px rgba(0, 0, 255, 0.2);
+  margin-top: 5px;
+  margin-bottom: 1px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  h3 {
+    font-size: 35px;
+  }
+}
+/*Greetings animation*/
+#initial-greeting {
+  font-family: "Pacifico", "Lato", "Times New Roman";
+  text-shadow: 1px 1px 1px blue;
+  animation: greeting 7.7s linear infinite;
+}
+
+@keyframes greeting {
+  0% {
+    color: magenta;
+  }
+  32.8% {
+    color: magenta;
+  }
+  33% {
+    color: springgreen;
+  }
+  65.8% {
+    color: springgreen;
+  }
+  66% {
+    color: cyan;
+  }
+  99.8% {
+    color: cyan;
+  }
+  100% {
+    color: magenta;
+  }
+}
+
+#welcome {
+  font-size: 41px;
+  font-family: "Pacifico", "Lato", "Times New Roman";
+  text-shadow: 1px 1px 1px blue;
+  animation: greeting 7.7s linear infinite;
+  padding: 5px;
+}
+/* My portrait picture */
+.portrait-picture {
+  margin-top: -71px;
+  width: 153px;
+  height: 153px;
+  border-radius: 50%;
+  border: solid 3px lightskyblue;
+}
+
+.portrait-picture:hover {
+  transform: scale(1.15);
+}
+
+/* My jobs text animation */
+.my-jobs {
+  margin: auto;
+  font-size: 2.5em;
+  font-weight: 800;
+  text-align: center;
+  width: 100%;
+  height: 71px;
+  color: blue;
+  text-shadow: 1px 1px 1px blue;
+  margin: auto;
+}
+
+.my-jobs:after {
+  content: "";
+  animation: myJobs 3.5s linear infinite;
+}
+
+@keyframes myJobs {
+  0% {
+    content: "PASSION";
+    color: cyan;
+  }
+  21% {
+    content: "PASSION";
+    color: magenta;
+  }
+  35% {
+    content: "PASSION";
+    color: yellow;
+  }
+  50% {
+    content: "PASSION";
+    color: springgreen;
+  }
+  51% {
+    content: "TEAMWORK";
+    color: springgreen;
+  }
+  71% {
+    content: "TEAMWORK";
+    color: magenta;
+  }
+  84% {
+    content: "TEAMWORK";
+    color: yellow;
+  }
+  99% {
+    content: "TEAMWORK";
+    color: cyan;
+  }
+  100% {
+    content: "TEAMWORK";
+    color: cyan;
+  }
+}
+
+.cylinder-animation {
+  margin: 35px;
+  
+}
+.cylinder {
+  margin-top: 179px;
+  margin-bottom: 179px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cylinder .texts {
+  transform-style: preserve-3d;
+  animation: rotating-cylinder 26s linear infinite;
+}
+
+@keyframes rotating-cylinder {
+  0% {
+    transform: perspective(1000px) rotateX(0deg) rotate(25deg);
+  }
+  100% {
+    transform: perspective(1000px) rotateX(360deg) rotate(25deg);
+  }
+}
+
+.cylinder .texts span {
+  position: absolute;
+  color: white;
+  font-size: 2.6em;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 0 17px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(0, 0, 0, 0.5),
+    transparent
+  );
+  line-height: 1.2em;
+  transform-style: preserve-3d;
+  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+  transform: translate(-50%, -50%) rotateX(calc(var(--i) * 22.5deg))
+    translateZ(107px);
+}
+
+.cylinder .texts span i:nth-child(1) {
+  font-style: initial;
+  color:cyan;
+}
+
+.cylinder .texts span i:nth-child(2) {
+  font-style: initial;
+  color: magenta;
+}
+
+.cylinder .texts span i:nth-child(3) {
+  font-style: initial;
+  color: springgreen;
+}
+
+h4 {
+  font-size: 21px;
+  text-align: center;
+  width: 90%;
+  font-weight: 800;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5px;
+}
+
+h5 {
+  font-size: 17px;
+  color: blue;
+  font-family: "Arial Narrow";
+  text-align: center;
+  text-shadow: 0.3px 0.3px 0.3px black;
+}
+
+strong {
+  font-size: 20.5px;
+  color: white;
+  text-shadow: 1.8px 1.8px 1.8px blue;
+}
+/* Bootstrap jumbotron */
+.jumbotron {
+  background-color: white;
+  color: white;
+  margin-top: -27px;
+  padding: 1px;
+  font-family: Montserrat, sans-serif;
+}
+
+.container-fluid {
+  padding-left: 14px;
+}
+
+.col-sm-12 {
+  padding-top: 8px;
+}
+
+.panel-heading {
+  color: white !important;
+  background-color: #9999ff !important;
+  padding-top: 17px;
+  padding-bottom: 29px;
+}
+/* All website sections */
+#about,
+#services,
+#experience,
+#portfolio,
+#skills,
+#contact {
+  margin-top: 71px;
+}
+
+.panel {
+  margin-top: 57px;
+  background: #9999ff;
+  border: 1px solid lightskyblue;
+  border-radius: 0 !important;
+  transition: box-shadow 0.5s;
+  box-shadow: 10px 1px 50px rgba(0, 0, 0, 0.2);
+}
+
+.panel:hover {
+  animation: shake 0.35s ease-in-out;
+  cursor: grab;
+}
+
+.slide {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+/* Carousel with my pictures from the JavaScript course */
+#myCarousel img {
+  width: 90%;
+  margin-top: 39px;
+  margin-bottom: 15px;
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background: white;
+  width: 5%;
+}
+
+.glyphicon-chevron-left,
+.glyphicon-chevron-right {
+  color: blue;
+}
+
+#button {
+  color: white;
+  background-color: red;
+  text-shadow: 1px 1px 1px black;
+  box-shadow: 10px 0 40px rgba(0, 0, 0, 0.2);
+  font-weight: 800;
+  margin: auto;
+}
+
+#button:hover,
+#button:active {
+  background-color: lightskyblue;
+  animation: shake 0.35s ease-in-out;
+}
+
+@keyframes shake {
+  20% {
+    transform: translateX(8px);
+  }
+  40% {
+    transform: translateX(-6px);
+  }
+  60% {
+    transform: translateX(4px);
+  }
+  80% {
+    transform: translateX(-2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#final-greeting {
+  text-shadow: 1px 1px 1px blue;
+  animation: greeting 5s linear infinite;
+}

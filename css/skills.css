@@ -1,0 +1,88 @@
+/* Skills section panels */
+.skills-panels {
+  width: 95%;
+  margin: 1vh auto;
+}
+
+.panel-heading1 {
+  color: white !important;
+  background-color: blue !important;
+  padding-top: 1px;
+  padding-bottom: 25px;
+  border: 1px solid lightskyblue;
+}
+
+.panel-heading2 {
+  color: white !important;
+  background-color: yellow !important;
+  padding-top: 1px;
+  padding-bottom: 25px;
+  border: 1px solid lightskyblue;
+}
+
+.panel-heading3 {
+  color: white !important;
+  background-color: red !important;
+  padding-top: 1px;
+  padding-bottom: 25px;
+  border: 1px solid lightskyblue;
+}
+
+.panel-heading4 {
+  color: white !important;
+  background-color: green !important;
+  padding-top: 1px;
+  padding-bottom: 25px;
+  border: 1px solid lightskyblue;
+}
+
+.panel-heading5 {
+  color: black !important;
+  background-color: white !important;
+  padding-top: 21px;
+  padding-bottom: 5px;
+}
+
+.panel-body1 {
+  background-color: azure;
+  padding: 1px;
+}
+
+.panel-body1:hover {
+  background-color: blue;
+  color: yellow;
+}
+
+.panel-body2 {
+  background-color: lightyellow;
+  padding: 1px;
+}
+
+.panel-body2:hover {
+  background-color: yellow;
+  color: blue;
+}
+
+.panel-body3 {
+  background-color: mistyrose;
+  padding: 1px;
+}
+
+.panel-body3:hover {
+  background-color: red;
+  color: green;
+}
+
+.panel-body4 {
+  background-color: lightgreen;
+  padding: 1px;
+}
+
+.panel-body4:hover {
+  background-color: green;
+  color: red;
+}
+
+.logo-small {
+  font-size: 53px;
+}

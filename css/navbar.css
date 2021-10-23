@@ -1,0 +1,55 @@
+/* Navbar */
+.navbar {
+  margin-bottom: 1px;
+  background-color: #9999ff;
+  z-index: 9999;
+  font-weight: 900;
+  font-size: 15px !important;
+  line-height: 1.5 !important;
+  letter-spacing: 1px;
+  border-radius: 0;
+  border: 1px solid white;
+  text-shadow: 1px 1px 3px blue;
+  font-family: Lato, Montserrat, sans-serif, Times New Roman;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+  color: white !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+  color: blue !important;
+  text-shadow: none;
+  background-color: lightyellow !important;
+  animation: shake 0.35s ease-in-out;
+}
+
+@keyframes shake {
+  20% {
+    transform: translateX(8px);
+  }
+  40% {
+    transform: translateX(-6px);
+  }
+  60% {
+    transform: translateX(4px);
+  }
+  80% {
+    transform: translateX(-2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: white !important;
+}
+
+.nav-tabs li a {
+  font-size: 15px;
+  font-weight: 700;
+}

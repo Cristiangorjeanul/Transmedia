@@ -1,0 +1,269 @@
+/* Experience hourglass */
+.hourglass {
+  background: white;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  box-shadow: inset 0 0 0 0.35rem blue;
+  flex-direction: column;
+  animation: clock 10s ease-in-out infinite;
+}
+
+.glass {
+  background: lightsteelblue;
+  height: 35%;
+  width: 35%;
+  border-top: 4px solid blue;
+  border-bottom: 8px solid blue;
+  border-radius: 75% 75% 0 0/ 100% 100% 0 0;
+  overflow: hidden;
+}
+
+.top {
+  transform: rotate(180deg);
+}
+
+.sand {
+  background: #ffdb59;
+  height: 150%;
+  width: 150%;
+  transform-origin: 0% 0%;
+  animation: sand 10s linear infinite -5s;
+}
+
+.delayed {
+  animation-delay: 0s;
+}
+
+@keyframes clock {
+  0% {
+    transform: rotate(0deg);
+  }
+  25%,
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes sand {
+  0%,
+  100% {
+    border-radius: 5%;
+    transform: translate(35%, 20%) rotate(45deg);
+  }
+  15% {
+    border-radius: 40%;
+    transform: translate(0%, 35%) rotate(-65deg) scale(1.5, 1.5);
+  }
+  25% {
+    border-radius: 20%;
+    transform: translate(-15%, 35%) rotate(-90deg) scale(1.2, 1.2);
+  }
+  50% {
+    border-radius: 5%;
+    transform: translate(0%, 0%) rotate(-90deg) scale(1, 1);
+    opacity: 1;
+  }
+  50.01%,
+  64.99% {
+    opacity: 0;
+  }
+  65% {
+    border-radius: 35%;
+    transform: translate(20%, 50%) rotate(30deg);
+    opacity: 1;
+  }
+  75% {
+    border-radius: 10%;
+    transform: translate(35%, 40%) rotate(45deg);
+  }
+}
+
+/* Experience time line */
+#timeline ul {
+  padding: 5px;
+  margin-bottom: 95px;
+}
+
+#timeline ul li {
+  position: relative;
+  width: 5px;
+  margin: auto;
+  background: blue;
+  list-style: none;
+}
+
+/* Job boxes */
+#timeline ul li div h4 {
+  color: white;
+  text-align: center;
+}
+
+#timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 157px;
+  padding: 0.1rem;
+  box-shadow: 10px 0 40px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  cursor: grab;
+}
+
+#timeline ul li:nth-child(1) div {
+  background: blue;
+  border: 3px solid lightskyblue;
+}
+
+#timeline ul li:nth-child(2) div {
+  background: yellow;
+  border: 3px solid lightskyblue;
+}
+
+#timeline ul li:nth-child(3) div {
+  background: red;
+  border: 3px solid lightskyblue;
+}
+
+#timeline ul li:nth-child(4) div {
+  background: green;
+  border: 3px solid lightskyblue;
+}
+
+#timeline ul li div:hover {
+  background: lightskyblue;
+  border: 3px solid lightskyblue;
+  color: black;
+  animation: circle-shake 0.35s ease-in-out;
+}
+
+#timeline ul li div h4:hover {
+  color: black;
+  text-align: center;
+}
+
+@keyframes circle-shake {
+  20% {
+    transform: rotateY(5deg);
+    transform: rotateZ(5deg);
+  }
+  40% {
+    transform: rotateY(-5deg);
+    transform: rotateZ(-5deg);
+  }
+  60% {
+    transform: rotateY(5deg);
+    transform: rotateZ(5deg);
+  }
+  80% {
+    transform: rotateY(-5deg);
+    transform: rotateZ(-5deg);
+  }
+  100% {
+    transform: rotateY(5deg);
+    transform: rotateZ(5deg);
+  }
+}
+
+/* Right Side */
+#timeline ul li:nth-child(odd) div {
+  left: 40px;
+  transform: translate(50px, 0);
+}
+
+/* Left Side */
+#timeline ul li:nth-child(even) div {
+  left: -193px;
+  transform: translate(-50px, 0);
+}
+
+/* Circles */
+#timeline ul li:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 25px;
+  height: 25px;
+  background: inherit;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  transition: 0.5s ease-in-out;
+}
+
+/* Arrows base */
+#timeline div:before {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+/* Right Side Arrows */
+#timeline ul li:nth-child(odd) div:before {
+  left: -21px;
+  border-width: 9px 18px 9px 0;
+  border-color: transparent lightskyblue transparent transparent;
+}
+
+/* Left Side Arrows */
+#timeline ul li:nth-child(even) div:before {
+  right: -21px;
+  border-width: 9px 0px 9px 18px;
+  border-color: transparent transparent transparent lightskyblue;
+}
+
+/* Show Boxes */
+#timeline ul li.show div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+#timeline ul li.show:after {
+  background: white;
+  border: 3.5px solid blue;
+}
+
+@media (max-width: 900px) {
+  #timeline ul li div {
+    width: 235px;
+  }
+
+  #timeline ul li:nth-child(even) div {
+    left: -284px;
+  }
+}
+
+@media (max-width: 600px) {
+  #timeline ul li {
+    margin-left: 23px;
+  }
+
+  #timeline ul li div {
+    width: calc(100vw - 150px);
+  }
+
+  #timeline ul li:nth-child(even) div {
+    left: 40px;
+  }
+
+  #timeline ul li:nth-child(even) div:before {
+    left: -20px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent lightskyblue transparent transparent;
+  }
+}

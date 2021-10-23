@@ -1,0 +1,115 @@
+/* Game settings */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/* Click on all the numbers game */
+/* Reset button */
+.numbersButton {
+  height: 57px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  justify-content: center;
+}
+
+.numbersButton #resetGame {
+  margin: auto;
+  outline: none;
+  cursor: pointer;
+  width: 135px;
+  height: 50px;
+  font-weight: 800;
+  border-radius: 5px;
+  background: lightskyblue;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+#resetGame:hover {
+  background: red;
+}
+/* Click on the black balloons game */
+/* Start button */
+.gameButton {
+  width: 100%;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  justify-content: center;
+}
+
+.gameButton #newGame {
+  margin: auto;
+  outline: none;
+  cursor: pointer;
+  width: 135px;
+  height: 50px;
+  border-radius: 5px;
+  background: lightskyblue;
+  color: black;
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 35px;
+}
+
+#newGame:hover {
+  background: red;
+}
+/* Score board */
+.score {
+  color: red;
+  background: black;
+  width: 80px;
+  height: 32px;
+  font-size: 27px;
+  font-weight: 500;
+  margin: 1px auto;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Balloons game */
+.balloonsGame {
+  width: 350px;
+  height: 375px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+/* Multicolored balloons */
+.balloon {
+  flex: 1 0 33.33%;
+  overflow: hidden;
+  position: relative;
+}
+
+.balloon:after {
+  display: block;
+  background: url(../assets/balloons.png) bottom center no-repeat;
+  background-size: contain;
+  content: "";
+  width: 125px;
+  height: 77px;
+  position: absolute;
+  z-index: 2;
+  bottom: -21px;
+}
+/* Black flying balloon */
+.blackBalloon {
+  background: url(../assets/balloon.png) bottom center no-repeat;
+  background-size: 120%;
+  position: absolute;
+  margin-left: -12%;
+  top: 3%;
+  width: 131%;
+  height: 135%;
+  transition: all 1s;
+}
+
+.balloon.up .blackBalloon {
+  top: -52%;
+}
