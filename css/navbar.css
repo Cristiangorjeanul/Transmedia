@@ -1,7 +1,7 @@
 /* Navbar */
 .navbar {
   margin-bottom: 1px;
-  background-color: #9999ff;
+  background-color: #8888ff;
   z-index: 9999;
   font-weight: 900;
   font-size: 15px !important;
@@ -22,7 +22,7 @@
 .navbar-nav li.active a {
   color: blue !important;
   text-shadow: none;
-  background-color: lightyellow !important;
+  background-color: yellow !important;
   animation: shake 0.35s ease-in-out;
 }
 

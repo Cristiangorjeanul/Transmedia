@@ -49,26 +49,26 @@ $(document).ready(function () {
   });
 
   //My SVG CT logo
-  var iterationCount = $('.ct-logo').css("animation-iteration-count");
+  var iterationCount = $('.t-logo').css("animation-iteration-count");
   animate(iterationCount - 1)
 
   function animate(count) {
     if (count == 0) {
-      $('.ct-logo').css({
-        'animation': 'draw1 2.5s',
+      $('.t-logo').css({
+        'animation': 'draw1 3.5s',
       });
     }
     if (count == 1) {
-      $('.ct-logo').css({
-        'animation': 'draw2 2.5s',
+      $('.t-logo').css({
+        'animation': 'draw2 3.5s',
       });
     }
     if (count == 2) {
-      $('.ct-logo').css({
-        'animation': 'draw3 2.5s',
+      $('.t-logo').css({
+        'animation': 'draw3 3.5s',
       });
     }
-    $('.ct-logo:first').one("animationend", function () {
+    $('.t-logo:first').one("animationend", function () {
       if (count > 0)
         animate(count - 1)
       else

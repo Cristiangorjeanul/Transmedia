@@ -20,14 +20,14 @@ body {
 }
 
 /*My SVG CT animation logo*/
-#ct-logo {
+#t-logo {
   width: 171px;
   height: 84px;
   padding: 1px;
   margin: auto;
 }
 
-.ct-logo {
+.t-logo {
   animation-fill-mode: forwards;
   animation-iteration-count: 3;
 }
@@ -47,11 +47,11 @@ body {
 
 @keyframes draw2 {
   0% {
-    stroke: springgreen;
+    stroke: yellow;
     stroke-width: 1.8px;
   }
   100% {
-    stroke: springgreen;
+    stroke: yellow;
     stroke-width: 1.8px;
     fill: none;
     stroke-dashoffset: 100;
@@ -60,11 +60,11 @@ body {
 
 @keyframes draw3 {
   0% {
-    stroke: magenta;
+    stroke: red;
     stroke-width: 1.8px;
   }
   100% {
-    stroke: magenta;
+    stroke: red;
     stroke-width: 1.8px;
     fill: none;
     stroke-dashoffset: 100;
@@ -116,7 +116,7 @@ h2 {
   transform: translate(-50%, -50%);
   transition: all 1.5s ease;
   filter: drop-shadow(1px 1px 3px blue);
-  top: 237px;
+  top: 242px;
   width: 305px;
   height: 150px;
 }
@@ -124,9 +124,9 @@ h2 {
 @media (min-width: 768px) {
   .my-website-screen-shoot {
     left: 50%;
-    top: 275px;
-    width: 500px;
-    height: 197px;
+    top: 291px;
+    width: 570px;
+    height: 225px;
   }
 }
 
@@ -136,7 +136,7 @@ h2 {
   height: 75px;
   font-size: 20.1px;
   font-weight: 900;
-  padding-top: 153px;
+  padding-top: 161px;
   margin: auto;
   color: white;
   font-family: "Lato", "Montserrat", "Times New Roman";
@@ -149,10 +149,9 @@ h2 {
 
 @media (min-width: 768px) {
   .activity-fields {
-    padding-top: 167px;
+    padding-top: 201px;
     margin: 1px auto;
-    font-size: 39px;
-    font-family: "Lato", "Montserrat", "Times New Roman";
+    font-size: 35px;
   }
 }
 
@@ -228,7 +227,7 @@ h3 {
   width: 153px;
   height: 153px;
   border-radius: 50%;
-  border: solid 3px lightskyblue;
+  border: solid 3px 8888ff;
 }
 
 .portrait-picture:hover {
@@ -294,7 +293,6 @@ h3 {
 
 .cylinder-animation {
   margin: 35px;
-  
 }
 .cylinder {
   margin-top: 179px;
@@ -341,7 +339,7 @@ h3 {
 
 .cylinder .texts span i:nth-child(1) {
   font-style: initial;
-  color:cyan;
+  color: cyan;
 }
 
 .cylinder .texts span i:nth-child(2) {
@@ -396,7 +394,7 @@ strong {
 
 .panel-heading {
   color: white !important;
-  background-color: #9999ff !important;
+  background-color: #8888ff !important;
   padding-top: 17px;
   padding-bottom: 29px;
 }
@@ -413,7 +411,7 @@ strong {
 .panel {
   margin-top: 57px;
   background: #9999ff;
-  border: 1px solid lightskyblue;
+  border: 1px solid blue;
   border-radius: 0 !important;
   transition: box-shadow 0.5s;
   box-shadow: 10px 1px 50px rgba(0, 0, 0, 0.2);
@@ -487,7 +485,7 @@ strong {
 
 #button:hover,
 #button:active {
-  background-color: lightskyblue;
+  background-color: #8888ff;
   animation: shake 0.35s ease-in-out;
 }
 
@@ -507,6 +505,95 @@ strong {
   100% {
     transform: translateX(0);
   }
+}
+
+/* Skills section panels */
+.skills-panels {
+  width: 95%;
+  margin: 1vh auto;
+}
+
+.panel-heading1 {
+  color: white !important;
+  background-color: blue !important;
+  padding-top: 1px;
+  padding-bottom: 25px;
+  border: 1px solid #8888ff;
+}
+
+.panel-heading2 {
+  color: white !important;
+  background-color: yellow !important;
+  padding-top: 1px;
+  padding-bottom: 25px;
+  border: 1px solid #8888ff;
+}
+
+.panel-heading3 {
+  color: white !important;
+  background-color: red !important;
+  padding-top: 1px;
+  padding-bottom: 25px;
+  border: 1px solid #8888ff;
+}
+
+.panel-heading4 {
+  color: white !important;
+  background-color: green !important;
+  padding-top: 1px;
+  padding-bottom: 25px;
+  border: 1px solid #8888ff;
+}
+
+.panel-heading5 {
+  color: black !important;
+  background-color: white !important;
+  padding-top: 21px;
+  padding-bottom: 5px;
+}
+
+.panel-body1 {
+  background-color: azure;
+  padding: 1px;
+}
+
+.panel-body1:hover {
+  background-color: blue;
+  color: yellow;
+}
+
+.panel-body2 {
+  background-color: lightyellow;
+  padding: 1px;
+}
+
+.panel-body2:hover {
+  background-color: yellow;
+  color: blue;
+}
+
+.panel-body3 {
+  background-color: mistyrose;
+  padding: 1px;
+}
+
+.panel-body3:hover {
+  background-color: red;
+  color: green;
+}
+
+.panel-body4 {
+  background-color: lightgreen;
+  padding: 1px;
+}
+
+.panel-body4:hover {
+  background-color: green;
+  color: red;
+}
+
+.logo-small {
+  font-size: 53px;
 }
 
 #final-greeting {

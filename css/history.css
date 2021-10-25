@@ -123,7 +123,7 @@
 
 #timeline ul li:nth-child(1) div {
   background: blue;
-  border: 3px solid lightskyblue;
+  border: 3px solid #8888ff;
 }
 
 #timeline ul li:nth-child(2) div {
@@ -133,17 +133,17 @@
 
 #timeline ul li:nth-child(3) div {
   background: red;
-  border: 3px solid lightskyblue;
+  border: 3px solid #8888ff;
 }
 
 #timeline ul li:nth-child(4) div {
   background: green;
-  border: 3px solid lightskyblue;
+  border: 3px solid #8888ff;
 }
 
 #timeline ul li div:hover {
-  background: lightskyblue;
-  border: 3px solid lightskyblue;
+  background: #8888ff;
+  border: 3px solid #8888ff;
   color: black;
   animation: circle-shake 0.35s ease-in-out;
 }

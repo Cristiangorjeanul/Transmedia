@@ -157,7 +157,7 @@
 }
 
 #buttonLike {
-  background-color:#9999ff;
+  background-color: #8888ff;
   color: white;
   width: 115px;
   height: 45px;
@@ -193,7 +193,7 @@
 }
 /* Modal */
 .modal-body {
-  background-color: #9999ff;
+  background-color: #8888ff;
   color: white !important;
 }
 
